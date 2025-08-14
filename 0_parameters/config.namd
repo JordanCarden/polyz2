@@ -10,7 +10,7 @@
 ## ADJUSTABLE PARAMETERS                                   ##
 #############################################################
 
-structure          /work/jcarde7/polyzwitterion/1_input/polymer_drug_solvate_ion.psf
+structure          polymer_drug_solvate_ion.psf
 coordinates        /work/jcarde7/polyzwitterion/1_input/polymer_drug_solvate_ion.pdb
 
 set temperature    310
@@ -27,7 +27,7 @@ firsttimestep      0
 # Input
 paraTypeCharmm	    on
 
-parameters  nbfix.par
+parameters  /work/jcarde7/polyzwitterion/0_parameters/newmartini-all-nonb_martini3.par
 parameters  /work/jcarde7/polyzwitterion/0_parameters/bonded.par   
 #parameters  martini-NB
 
