@@ -11,7 +11,7 @@
 #############################################################
 
 structure          polymer_drug_solvate_ion.psf
-coordinates        /work/jcarde7/polyzwitterion/1_input/polymer_drug_solvate_ion.pdb
+coordinates        /work/jcarde7/polz2/1_input/polymer_drug_solvate_ion.pdb
 
 set temperature    310
 cosAngles	   on
@@ -27,8 +27,8 @@ firsttimestep      0
 # Input
 paraTypeCharmm	    on
 
-parameters  /work/jcarde7/polyzwitterion/0_parameters/newmartini-all-nonb_martini3.par
-parameters  /work/jcarde7/polyzwitterion/0_parameters/bonded.par   
+parameters  /work/jcarde7/polz2/0_parameters/newmartini-all-nonb_martini3.par
+parameters  /work/jcarde7/polz2/0_parameters/bonded.par   
 #parameters  martini-NB
 
 temperature         $temperature  #comment when restarting a simulation
