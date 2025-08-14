@@ -1,18 +1,800 @@
 BONDS
-!B1  B2  k  r0 (charmm values, ie. k in kcal/mol/A^2, R0 in A)
-Q1	Q2	50.91	4.40
-Q2	N1	50.416	4.90
-N1	C1	50.416	5.05
-C1      C1      50.0    5.04
+!B1  B2  k  r0 (kcal/mol/A^2, A)
+Q1     Q1     50.910 4.40
+Q1     Q2     50.910 4.40
+Q1     Q3     50.910 4.40
+Q1     Q4     50.910 4.40
+Q1     Q5     50.910 4.40
+Q1     Q6     50.910 4.40
+Q2     Q1     50.910 4.40
+Q2     Q2     50.910 4.40
+Q2     Q3     50.910 4.40
+Q2     Q4     50.910 4.40
+Q2     Q5     50.910 4.40
+Q2     Q6     50.910 4.40
+Q3     Q1     50.910 4.40
+Q3     Q2     50.910 4.40
+Q3     Q3     50.910 4.40
+Q3     Q4     50.910 4.40
+Q3     Q5     50.910 4.40
+Q3     Q6     50.910 4.40
+Q4     Q1     50.910 4.40
+Q4     Q2     50.910 4.40
+Q4     Q3     50.910 4.40
+Q4     Q4     50.910 4.40
+Q4     Q5     50.910 4.40
+Q4     Q6     50.910 4.40
+Q5     Q1     50.910 4.40
+Q5     Q2     50.910 4.40
+Q5     Q3     50.910 4.40
+Q5     Q4     50.910 4.40
+Q5     Q5     50.910 4.40
+Q5     Q6     50.910 4.40
+Q6     Q1     50.910 4.40
+Q6     Q2     50.910 4.40
+Q6     Q3     50.910 4.40
+Q6     Q4     50.910 4.40
+Q6     Q5     50.910 4.40
+Q6     Q6     50.910 4.40
+Q1     N1     50.416 4.90
+Q1     N2     50.416 4.90
+Q1     N3     50.416 4.90
+Q1     N4     50.416 4.90
+Q1     N5     50.416 4.90
+Q1     N6     50.416 4.90
+Q2     N1     50.416 4.90
+Q2     N2     50.416 4.90
+Q2     N3     50.416 4.90
+Q2     N4     50.416 4.90
+Q2     N5     50.416 4.90
+Q2     N6     50.416 4.90
+Q3     N1     50.416 4.90
+Q3     N2     50.416 4.90
+Q3     N3     50.416 4.90
+Q3     N4     50.416 4.90
+Q3     N5     50.416 4.90
+Q3     N6     50.416 4.90
+Q4     N1     50.416 4.90
+Q4     N2     50.416 4.90
+Q4     N3     50.416 4.90
+Q4     N4     50.416 4.90
+Q4     N5     50.416 4.90
+Q4     N6     50.416 4.90
+Q5     N1     50.416 4.90
+Q5     N2     50.416 4.90
+Q5     N3     50.416 4.90
+Q5     N4     50.416 4.90
+Q5     N5     50.416 4.90
+Q5     N6     50.416 4.90
+Q6     N1     50.416 4.90
+Q6     N2     50.416 4.90
+Q6     N3     50.416 4.90
+Q6     N4     50.416 4.90
+Q6     N5     50.416 4.90
+Q6     N6     50.416 4.90
+N1     C1     50.416 5.05
+N1     C2     50.416 5.05
+N1     C3     50.416 5.05
+N1     C4     50.416 5.05
+N1     C5     50.416 5.05
+N1     C6     50.416 5.05
+N2     C1     50.416 5.05
+N2     C2     50.416 5.05
+N2     C3     50.416 5.05
+N2     C4     50.416 5.05
+N2     C5     50.416 5.05
+N2     C6     50.416 5.05
+N3     C1     50.416 5.05
+N3     C2     50.416 5.05
+N3     C3     50.416 5.05
+N3     C4     50.416 5.05
+N3     C5     50.416 5.05
+N3     C6     50.416 5.05
+N4     C1     50.416 5.05
+N4     C2     50.416 5.05
+N4     C3     50.416 5.05
+N4     C4     50.416 5.05
+N4     C5     50.416 5.05
+N4     C6     50.416 5.05
+N5     C1     50.416 5.05
+N5     C2     50.416 5.05
+N5     C3     50.416 5.05
+N5     C4     50.416 5.05
+N5     C5     50.416 5.05
+N5     C6     50.416 5.05
+N6     C1     50.416 5.05
+N6     C2     50.416 5.05
+N6     C3     50.416 5.05
+N6     C4     50.416 5.05
+N6     C5     50.416 5.05
+N6     C6     50.416 5.05
+C1     C1     50.000 5.04
+C1     C2     50.000 5.04
+C1     C3     50.000 5.04
+C1     C4     50.000 5.04
+C1     C5     50.000 5.04
+C1     C6     50.000 5.04
+C2     C1     50.000 5.04
+C2     C2     50.000 5.04
+C2     C3     50.000 5.04
+C2     C4     50.000 5.04
+C2     C5     50.000 5.04
+C2     C6     50.000 5.04
+C3     C1     50.000 5.04
+C3     C2     50.000 5.04
+C3     C3     50.000 5.04
+C3     C4     50.000 5.04
+C3     C5     50.000 5.04
+C3     C6     50.000 5.04
+C4     C1     50.000 5.04
+C4     C2     50.000 5.04
+C4     C3     50.000 5.04
+C4     C4     50.000 5.04
+C4     C5     50.000 5.04
+C4     C6     50.000 5.04
+C5     C1     50.000 5.04
+C5     C2     50.000 5.04
+C5     C3     50.000 5.04
+C5     C4     50.000 5.04
+C5     C5     50.000 5.04
+C5     C6     50.000 5.04
+C6     C1     50.000 5.04
+C6     C2     50.000 5.04
+C6     C3     50.000 5.04
+C6     C4     50.000 5.04
+C6     C5     50.000 5.04
+C6     C6     50.000 5.04
 
 ANGLES cos
-! B1  B2  B3  k  theta0
-Q1	Q2	N1	80.16	60   cos
-Q2	N1	C1	80.16	85   cos
-C1	C1	C1	80.16	150  cos
+!B1  B2  B3  k  theta0
+Q1     Q1     N1     80.16 60   cos
+Q1     Q1     N2     80.16 60   cos
+Q1     Q1     N3     80.16 60   cos
+Q1     Q1     N4     80.16 60   cos
+Q1     Q1     N5     80.16 60   cos
+Q1     Q1     N6     80.16 60   cos
+Q1     Q2     N1     80.16 60   cos
+Q1     Q2     N2     80.16 60   cos
+Q1     Q2     N3     80.16 60   cos
+Q1     Q2     N4     80.16 60   cos
+Q1     Q2     N5     80.16 60   cos
+Q1     Q2     N6     80.16 60   cos
+Q1     Q3     N1     80.16 60   cos
+Q1     Q3     N2     80.16 60   cos
+Q1     Q3     N3     80.16 60   cos
+Q1     Q3     N4     80.16 60   cos
+Q1     Q3     N5     80.16 60   cos
+Q1     Q3     N6     80.16 60   cos
+Q1     Q4     N1     80.16 60   cos
+Q1     Q4     N2     80.16 60   cos
+Q1     Q4     N3     80.16 60   cos
+Q1     Q4     N4     80.16 60   cos
+Q1     Q4     N5     80.16 60   cos
+Q1     Q4     N6     80.16 60   cos
+Q1     Q5     N1     80.16 60   cos
+Q1     Q5     N2     80.16 60   cos
+Q1     Q5     N3     80.16 60   cos
+Q1     Q5     N4     80.16 60   cos
+Q1     Q5     N5     80.16 60   cos
+Q1     Q5     N6     80.16 60   cos
+Q1     Q6     N1     80.16 60   cos
+Q1     Q6     N2     80.16 60   cos
+Q1     Q6     N3     80.16 60   cos
+Q1     Q6     N4     80.16 60   cos
+Q1     Q6     N5     80.16 60   cos
+Q1     Q6     N6     80.16 60   cos
+Q2     Q1     N1     80.16 60   cos
+Q2     Q1     N2     80.16 60   cos
+Q2     Q1     N3     80.16 60   cos
+Q2     Q1     N4     80.16 60   cos
+Q2     Q1     N5     80.16 60   cos
+Q2     Q1     N6     80.16 60   cos
+Q2     Q2     N1     80.16 60   cos
+Q2     Q2     N2     80.16 60   cos
+Q2     Q2     N3     80.16 60   cos
+Q2     Q2     N4     80.16 60   cos
+Q2     Q2     N5     80.16 60   cos
+Q2     Q2     N6     80.16 60   cos
+Q2     Q3     N1     80.16 60   cos
+Q2     Q3     N2     80.16 60   cos
+Q2     Q3     N3     80.16 60   cos
+Q2     Q3     N4     80.16 60   cos
+Q2     Q3     N5     80.16 60   cos
+Q2     Q3     N6     80.16 60   cos
+Q2     Q4     N1     80.16 60   cos
+Q2     Q4     N2     80.16 60   cos
+Q2     Q4     N3     80.16 60   cos
+Q2     Q4     N4     80.16 60   cos
+Q2     Q4     N5     80.16 60   cos
+Q2     Q4     N6     80.16 60   cos
+Q2     Q5     N1     80.16 60   cos
+Q2     Q5     N2     80.16 60   cos
+Q2     Q5     N3     80.16 60   cos
+Q2     Q5     N4     80.16 60   cos
+Q2     Q5     N5     80.16 60   cos
+Q2     Q5     N6     80.16 60   cos
+Q2     Q6     N1     80.16 60   cos
+Q2     Q6     N2     80.16 60   cos
+Q2     Q6     N3     80.16 60   cos
+Q2     Q6     N4     80.16 60   cos
+Q2     Q6     N5     80.16 60   cos
+Q2     Q6     N6     80.16 60   cos
+Q3     Q1     N1     80.16 60   cos
+Q3     Q1     N2     80.16 60   cos
+Q3     Q1     N3     80.16 60   cos
+Q3     Q1     N4     80.16 60   cos
+Q3     Q1     N5     80.16 60   cos
+Q3     Q1     N6     80.16 60   cos
+Q3     Q2     N1     80.16 60   cos
+Q3     Q2     N2     80.16 60   cos
+Q3     Q2     N3     80.16 60   cos
+Q3     Q2     N4     80.16 60   cos
+Q3     Q2     N5     80.16 60   cos
+Q3     Q2     N6     80.16 60   cos
+Q3     Q3     N1     80.16 60   cos
+Q3     Q3     N2     80.16 60   cos
+Q3     Q3     N3     80.16 60   cos
+Q3     Q3     N4     80.16 60   cos
+Q3     Q3     N5     80.16 60   cos
+Q3     Q3     N6     80.16 60   cos
+Q3     Q4     N1     80.16 60   cos
+Q3     Q4     N2     80.16 60   cos
+Q3     Q4     N3     80.16 60   cos
+Q3     Q4     N4     80.16 60   cos
+Q3     Q4     N5     80.16 60   cos
+Q3     Q4     N6     80.16 60   cos
+Q3     Q5     N1     80.16 60   cos
+Q3     Q5     N2     80.16 60   cos
+Q3     Q5     N3     80.16 60   cos
+Q3     Q5     N4     80.16 60   cos
+Q3     Q5     N5     80.16 60   cos
+Q3     Q5     N6     80.16 60   cos
+Q3     Q6     N1     80.16 60   cos
+Q3     Q6     N2     80.16 60   cos
+Q3     Q6     N3     80.16 60   cos
+Q3     Q6     N4     80.16 60   cos
+Q3     Q6     N5     80.16 60   cos
+Q3     Q6     N6     80.16 60   cos
+Q4     Q1     N1     80.16 60   cos
+Q4     Q1     N2     80.16 60   cos
+Q4     Q1     N3     80.16 60   cos
+Q4     Q1     N4     80.16 60   cos
+Q4     Q1     N5     80.16 60   cos
+Q4     Q1     N6     80.16 60   cos
+Q4     Q2     N1     80.16 60   cos
+Q4     Q2     N2     80.16 60   cos
+Q4     Q2     N3     80.16 60   cos
+Q4     Q2     N4     80.16 60   cos
+Q4     Q2     N5     80.16 60   cos
+Q4     Q2     N6     80.16 60   cos
+Q4     Q3     N1     80.16 60   cos
+Q4     Q3     N2     80.16 60   cos
+Q4     Q3     N3     80.16 60   cos
+Q4     Q3     N4     80.16 60   cos
+Q4     Q3     N5     80.16 60   cos
+Q4     Q3     N6     80.16 60   cos
+Q4     Q4     N1     80.16 60   cos
+Q4     Q4     N2     80.16 60   cos
+Q4     Q4     N3     80.16 60   cos
+Q4     Q4     N4     80.16 60   cos
+Q4     Q4     N5     80.16 60   cos
+Q4     Q4     N6     80.16 60   cos
+Q4     Q5     N1     80.16 60   cos
+Q4     Q5     N2     80.16 60   cos
+Q4     Q5     N3     80.16 60   cos
+Q4     Q5     N4     80.16 60   cos
+Q4     Q5     N5     80.16 60   cos
+Q4     Q5     N6     80.16 60   cos
+Q4     Q6     N1     80.16 60   cos
+Q4     Q6     N2     80.16 60   cos
+Q4     Q6     N3     80.16 60   cos
+Q4     Q6     N4     80.16 60   cos
+Q4     Q6     N5     80.16 60   cos
+Q4     Q6     N6     80.16 60   cos
+Q5     Q1     N1     80.16 60   cos
+Q5     Q1     N2     80.16 60   cos
+Q5     Q1     N3     80.16 60   cos
+Q5     Q1     N4     80.16 60   cos
+Q5     Q1     N5     80.16 60   cos
+Q5     Q1     N6     80.16 60   cos
+Q5     Q2     N1     80.16 60   cos
+Q5     Q2     N2     80.16 60   cos
+Q5     Q2     N3     80.16 60   cos
+Q5     Q2     N4     80.16 60   cos
+Q5     Q2     N5     80.16 60   cos
+Q5     Q2     N6     80.16 60   cos
+Q5     Q3     N1     80.16 60   cos
+Q5     Q3     N2     80.16 60   cos
+Q5     Q3     N3     80.16 60   cos
+Q5     Q3     N4     80.16 60   cos
+Q5     Q3     N5     80.16 60   cos
+Q5     Q3     N6     80.16 60   cos
+Q5     Q4     N1     80.16 60   cos
+Q5     Q4     N2     80.16 60   cos
+Q5     Q4     N3     80.16 60   cos
+Q5     Q4     N4     80.16 60   cos
+Q5     Q4     N5     80.16 60   cos
+Q5     Q4     N6     80.16 60   cos
+Q5     Q5     N1     80.16 60   cos
+Q5     Q5     N2     80.16 60   cos
+Q5     Q5     N3     80.16 60   cos
+Q5     Q5     N4     80.16 60   cos
+Q5     Q5     N5     80.16 60   cos
+Q5     Q5     N6     80.16 60   cos
+Q5     Q6     N1     80.16 60   cos
+Q5     Q6     N2     80.16 60   cos
+Q5     Q6     N3     80.16 60   cos
+Q5     Q6     N4     80.16 60   cos
+Q5     Q6     N5     80.16 60   cos
+Q5     Q6     N6     80.16 60   cos
+Q6     Q1     N1     80.16 60   cos
+Q6     Q1     N2     80.16 60   cos
+Q6     Q1     N3     80.16 60   cos
+Q6     Q1     N4     80.16 60   cos
+Q6     Q1     N5     80.16 60   cos
+Q6     Q1     N6     80.16 60   cos
+Q6     Q2     N1     80.16 60   cos
+Q6     Q2     N2     80.16 60   cos
+Q6     Q2     N3     80.16 60   cos
+Q6     Q2     N4     80.16 60   cos
+Q6     Q2     N5     80.16 60   cos
+Q6     Q2     N6     80.16 60   cos
+Q6     Q3     N1     80.16 60   cos
+Q6     Q3     N2     80.16 60   cos
+Q6     Q3     N3     80.16 60   cos
+Q6     Q3     N4     80.16 60   cos
+Q6     Q3     N5     80.16 60   cos
+Q6     Q3     N6     80.16 60   cos
+Q6     Q4     N1     80.16 60   cos
+Q6     Q4     N2     80.16 60   cos
+Q6     Q4     N3     80.16 60   cos
+Q6     Q4     N4     80.16 60   cos
+Q6     Q4     N5     80.16 60   cos
+Q6     Q4     N6     80.16 60   cos
+Q6     Q5     N1     80.16 60   cos
+Q6     Q5     N2     80.16 60   cos
+Q6     Q5     N3     80.16 60   cos
+Q6     Q5     N4     80.16 60   cos
+Q6     Q5     N5     80.16 60   cos
+Q6     Q5     N6     80.16 60   cos
+Q6     Q6     N1     80.16 60   cos
+Q6     Q6     N2     80.16 60   cos
+Q6     Q6     N3     80.16 60   cos
+Q6     Q6     N4     80.16 60   cos
+Q6     Q6     N5     80.16 60   cos
+Q6     Q6     N6     80.16 60   cos
+Q1     N1     C1     80.16 85   cos
+Q1     N1     C2     80.16 85   cos
+Q1     N1     C3     80.16 85   cos
+Q1     N1     C4     80.16 85   cos
+Q1     N1     C5     80.16 85   cos
+Q1     N1     C6     80.16 85   cos
+Q1     N2     C1     80.16 85   cos
+Q1     N2     C2     80.16 85   cos
+Q1     N2     C3     80.16 85   cos
+Q1     N2     C4     80.16 85   cos
+Q1     N2     C5     80.16 85   cos
+Q1     N2     C6     80.16 85   cos
+Q1     N3     C1     80.16 85   cos
+Q1     N3     C2     80.16 85   cos
+Q1     N3     C3     80.16 85   cos
+Q1     N3     C4     80.16 85   cos
+Q1     N3     C5     80.16 85   cos
+Q1     N3     C6     80.16 85   cos
+Q1     N4     C1     80.16 85   cos
+Q1     N4     C2     80.16 85   cos
+Q1     N4     C3     80.16 85   cos
+Q1     N4     C4     80.16 85   cos
+Q1     N4     C5     80.16 85   cos
+Q1     N4     C6     80.16 85   cos
+Q1     N5     C1     80.16 85   cos
+Q1     N5     C2     80.16 85   cos
+Q1     N5     C3     80.16 85   cos
+Q1     N5     C4     80.16 85   cos
+Q1     N5     C5     80.16 85   cos
+Q1     N5     C6     80.16 85   cos
+Q1     N6     C1     80.16 85   cos
+Q1     N6     C2     80.16 85   cos
+Q1     N6     C3     80.16 85   cos
+Q1     N6     C4     80.16 85   cos
+Q1     N6     C5     80.16 85   cos
+Q1     N6     C6     80.16 85   cos
+Q2     N1     C1     80.16 85   cos
+Q2     N1     C2     80.16 85   cos
+Q2     N1     C3     80.16 85   cos
+Q2     N1     C4     80.16 85   cos
+Q2     N1     C5     80.16 85   cos
+Q2     N1     C6     80.16 85   cos
+Q2     N2     C1     80.16 85   cos
+Q2     N2     C2     80.16 85   cos
+Q2     N2     C3     80.16 85   cos
+Q2     N2     C4     80.16 85   cos
+Q2     N2     C5     80.16 85   cos
+Q2     N2     C6     80.16 85   cos
+Q2     N3     C1     80.16 85   cos
+Q2     N3     C2     80.16 85   cos
+Q2     N3     C3     80.16 85   cos
+Q2     N3     C4     80.16 85   cos
+Q2     N3     C5     80.16 85   cos
+Q2     N3     C6     80.16 85   cos
+Q2     N4     C1     80.16 85   cos
+Q2     N4     C2     80.16 85   cos
+Q2     N4     C3     80.16 85   cos
+Q2     N4     C4     80.16 85   cos
+Q2     N4     C5     80.16 85   cos
+Q2     N4     C6     80.16 85   cos
+Q2     N5     C1     80.16 85   cos
+Q2     N5     C2     80.16 85   cos
+Q2     N5     C3     80.16 85   cos
+Q2     N5     C4     80.16 85   cos
+Q2     N5     C5     80.16 85   cos
+Q2     N5     C6     80.16 85   cos
+Q2     N6     C1     80.16 85   cos
+Q2     N6     C2     80.16 85   cos
+Q2     N6     C3     80.16 85   cos
+Q2     N6     C4     80.16 85   cos
+Q2     N6     C5     80.16 85   cos
+Q2     N6     C6     80.16 85   cos
+Q3     N1     C1     80.16 85   cos
+Q3     N1     C2     80.16 85   cos
+Q3     N1     C3     80.16 85   cos
+Q3     N1     C4     80.16 85   cos
+Q3     N1     C5     80.16 85   cos
+Q3     N1     C6     80.16 85   cos
+Q3     N2     C1     80.16 85   cos
+Q3     N2     C2     80.16 85   cos
+Q3     N2     C3     80.16 85   cos
+Q3     N2     C4     80.16 85   cos
+Q3     N2     C5     80.16 85   cos
+Q3     N2     C6     80.16 85   cos
+Q3     N3     C1     80.16 85   cos
+Q3     N3     C2     80.16 85   cos
+Q3     N3     C3     80.16 85   cos
+Q3     N3     C4     80.16 85   cos
+Q3     N3     C5     80.16 85   cos
+Q3     N3     C6     80.16 85   cos
+Q3     N4     C1     80.16 85   cos
+Q3     N4     C2     80.16 85   cos
+Q3     N4     C3     80.16 85   cos
+Q3     N4     C4     80.16 85   cos
+Q3     N4     C5     80.16 85   cos
+Q3     N4     C6     80.16 85   cos
+Q3     N5     C1     80.16 85   cos
+Q3     N5     C2     80.16 85   cos
+Q3     N5     C3     80.16 85   cos
+Q3     N5     C4     80.16 85   cos
+Q3     N5     C5     80.16 85   cos
+Q3     N5     C6     80.16 85   cos
+Q3     N6     C1     80.16 85   cos
+Q3     N6     C2     80.16 85   cos
+Q3     N6     C3     80.16 85   cos
+Q3     N6     C4     80.16 85   cos
+Q3     N6     C5     80.16 85   cos
+Q3     N6     C6     80.16 85   cos
+Q4     N1     C1     80.16 85   cos
+Q4     N1     C2     80.16 85   cos
+Q4     N1     C3     80.16 85   cos
+Q4     N1     C4     80.16 85   cos
+Q4     N1     C5     80.16 85   cos
+Q4     N1     C6     80.16 85   cos
+Q4     N2     C1     80.16 85   cos
+Q4     N2     C2     80.16 85   cos
+Q4     N2     C3     80.16 85   cos
+Q4     N2     C4     80.16 85   cos
+Q4     N2     C5     80.16 85   cos
+Q4     N2     C6     80.16 85   cos
+Q4     N3     C1     80.16 85   cos
+Q4     N3     C2     80.16 85   cos
+Q4     N3     C3     80.16 85   cos
+Q4     N3     C4     80.16 85   cos
+Q4     N3     C5     80.16 85   cos
+Q4     N3     C6     80.16 85   cos
+Q4     N4     C1     80.16 85   cos
+Q4     N4     C2     80.16 85   cos
+Q4     N4     C3     80.16 85   cos
+Q4     N4     C4     80.16 85   cos
+Q4     N4     C5     80.16 85   cos
+Q4     N4     C6     80.16 85   cos
+Q4     N5     C1     80.16 85   cos
+Q4     N5     C2     80.16 85   cos
+Q4     N5     C3     80.16 85   cos
+Q4     N5     C4     80.16 85   cos
+Q4     N5     C5     80.16 85   cos
+Q4     N5     C6     80.16 85   cos
+Q4     N6     C1     80.16 85   cos
+Q4     N6     C2     80.16 85   cos
+Q4     N6     C3     80.16 85   cos
+Q4     N6     C4     80.16 85   cos
+Q4     N6     C5     80.16 85   cos
+Q4     N6     C6     80.16 85   cos
+Q5     N1     C1     80.16 85   cos
+Q5     N1     C2     80.16 85   cos
+Q5     N1     C3     80.16 85   cos
+Q5     N1     C4     80.16 85   cos
+Q5     N1     C5     80.16 85   cos
+Q5     N1     C6     80.16 85   cos
+Q5     N2     C1     80.16 85   cos
+Q5     N2     C2     80.16 85   cos
+Q5     N2     C3     80.16 85   cos
+Q5     N2     C4     80.16 85   cos
+Q5     N2     C5     80.16 85   cos
+Q5     N2     C6     80.16 85   cos
+Q5     N3     C1     80.16 85   cos
+Q5     N3     C2     80.16 85   cos
+Q5     N3     C3     80.16 85   cos
+Q5     N3     C4     80.16 85   cos
+Q5     N3     C5     80.16 85   cos
+Q5     N3     C6     80.16 85   cos
+Q5     N4     C1     80.16 85   cos
+Q5     N4     C2     80.16 85   cos
+Q5     N4     C3     80.16 85   cos
+Q5     N4     C4     80.16 85   cos
+Q5     N4     C5     80.16 85   cos
+Q5     N4     C6     80.16 85   cos
+Q5     N5     C1     80.16 85   cos
+Q5     N5     C2     80.16 85   cos
+Q5     N5     C3     80.16 85   cos
+Q5     N5     C4     80.16 85   cos
+Q5     N5     C5     80.16 85   cos
+Q5     N5     C6     80.16 85   cos
+Q5     N6     C1     80.16 85   cos
+Q5     N6     C2     80.16 85   cos
+Q5     N6     C3     80.16 85   cos
+Q5     N6     C4     80.16 85   cos
+Q5     N6     C5     80.16 85   cos
+Q5     N6     C6     80.16 85   cos
+Q6     N1     C1     80.16 85   cos
+Q6     N1     C2     80.16 85   cos
+Q6     N1     C3     80.16 85   cos
+Q6     N1     C4     80.16 85   cos
+Q6     N1     C5     80.16 85   cos
+Q6     N1     C6     80.16 85   cos
+Q6     N2     C1     80.16 85   cos
+Q6     N2     C2     80.16 85   cos
+Q6     N2     C3     80.16 85   cos
+Q6     N2     C4     80.16 85   cos
+Q6     N2     C5     80.16 85   cos
+Q6     N2     C6     80.16 85   cos
+Q6     N3     C1     80.16 85   cos
+Q6     N3     C2     80.16 85   cos
+Q6     N3     C3     80.16 85   cos
+Q6     N3     C4     80.16 85   cos
+Q6     N3     C5     80.16 85   cos
+Q6     N3     C6     80.16 85   cos
+Q6     N4     C1     80.16 85   cos
+Q6     N4     C2     80.16 85   cos
+Q6     N4     C3     80.16 85   cos
+Q6     N4     C4     80.16 85   cos
+Q6     N4     C5     80.16 85   cos
+Q6     N4     C6     80.16 85   cos
+Q6     N5     C1     80.16 85   cos
+Q6     N5     C2     80.16 85   cos
+Q6     N5     C3     80.16 85   cos
+Q6     N5     C4     80.16 85   cos
+Q6     N5     C5     80.16 85   cos
+Q6     N5     C6     80.16 85   cos
+Q6     N6     C1     80.16 85   cos
+Q6     N6     C2     80.16 85   cos
+Q6     N6     C3     80.16 85   cos
+Q6     N6     C4     80.16 85   cos
+Q6     N6     C5     80.16 85   cos
+Q6     N6     C6     80.16 85   cos
+C1     C1     C1     80.16 150  cos
+C1     C1     C2     80.16 150  cos
+C1     C1     C3     80.16 150  cos
+C1     C1     C4     80.16 150  cos
+C1     C1     C5     80.16 150  cos
+C1     C1     C6     80.16 150  cos
+C1     C2     C1     80.16 150  cos
+C1     C2     C2     80.16 150  cos
+C1     C2     C3     80.16 150  cos
+C1     C2     C4     80.16 150  cos
+C1     C2     C5     80.16 150  cos
+C1     C2     C6     80.16 150  cos
+C1     C3     C1     80.16 150  cos
+C1     C3     C2     80.16 150  cos
+C1     C3     C3     80.16 150  cos
+C1     C3     C4     80.16 150  cos
+C1     C3     C5     80.16 150  cos
+C1     C3     C6     80.16 150  cos
+C1     C4     C1     80.16 150  cos
+C1     C4     C2     80.16 150  cos
+C1     C4     C3     80.16 150  cos
+C1     C4     C4     80.16 150  cos
+C1     C4     C5     80.16 150  cos
+C1     C4     C6     80.16 150  cos
+C1     C5     C1     80.16 150  cos
+C1     C5     C2     80.16 150  cos
+C1     C5     C3     80.16 150  cos
+C1     C5     C4     80.16 150  cos
+C1     C5     C5     80.16 150  cos
+C1     C5     C6     80.16 150  cos
+C1     C6     C1     80.16 150  cos
+C1     C6     C2     80.16 150  cos
+C1     C6     C3     80.16 150  cos
+C1     C6     C4     80.16 150  cos
+C1     C6     C5     80.16 150  cos
+C1     C6     C6     80.16 150  cos
+C2     C1     C1     80.16 150  cos
+C2     C1     C2     80.16 150  cos
+C2     C1     C3     80.16 150  cos
+C2     C1     C4     80.16 150  cos
+C2     C1     C5     80.16 150  cos
+C2     C1     C6     80.16 150  cos
+C2     C2     C1     80.16 150  cos
+C2     C2     C2     80.16 150  cos
+C2     C2     C3     80.16 150  cos
+C2     C2     C4     80.16 150  cos
+C2     C2     C5     80.16 150  cos
+C2     C2     C6     80.16 150  cos
+C2     C3     C1     80.16 150  cos
+C2     C3     C2     80.16 150  cos
+C2     C3     C3     80.16 150  cos
+C2     C3     C4     80.16 150  cos
+C2     C3     C5     80.16 150  cos
+C2     C3     C6     80.16 150  cos
+C2     C4     C1     80.16 150  cos
+C2     C4     C2     80.16 150  cos
+C2     C4     C3     80.16 150  cos
+C2     C4     C4     80.16 150  cos
+C2     C4     C5     80.16 150  cos
+C2     C4     C6     80.16 150  cos
+C2     C5     C1     80.16 150  cos
+C2     C5     C2     80.16 150  cos
+C2     C5     C3     80.16 150  cos
+C2     C5     C4     80.16 150  cos
+C2     C5     C5     80.16 150  cos
+C2     C5     C6     80.16 150  cos
+C2     C6     C1     80.16 150  cos
+C2     C6     C2     80.16 150  cos
+C2     C6     C3     80.16 150  cos
+C2     C6     C4     80.16 150  cos
+C2     C6     C5     80.16 150  cos
+C2     C6     C6     80.16 150  cos
+C3     C1     C1     80.16 150  cos
+C3     C1     C2     80.16 150  cos
+C3     C1     C3     80.16 150  cos
+C3     C1     C4     80.16 150  cos
+C3     C1     C5     80.16 150  cos
+C3     C1     C6     80.16 150  cos
+C3     C2     C1     80.16 150  cos
+C3     C2     C2     80.16 150  cos
+C3     C2     C3     80.16 150  cos
+C3     C2     C4     80.16 150  cos
+C3     C2     C5     80.16 150  cos
+C3     C2     C6     80.16 150  cos
+C3     C3     C1     80.16 150  cos
+C3     C3     C2     80.16 150  cos
+C3     C3     C3     80.16 150  cos
+C3     C3     C4     80.16 150  cos
+C3     C3     C5     80.16 150  cos
+C3     C3     C6     80.16 150  cos
+C3     C4     C1     80.16 150  cos
+C3     C4     C2     80.16 150  cos
+C3     C4     C3     80.16 150  cos
+C3     C4     C4     80.16 150  cos
+C3     C4     C5     80.16 150  cos
+C3     C4     C6     80.16 150  cos
+C3     C5     C1     80.16 150  cos
+C3     C5     C2     80.16 150  cos
+C3     C5     C3     80.16 150  cos
+C3     C5     C4     80.16 150  cos
+C3     C5     C5     80.16 150  cos
+C3     C5     C6     80.16 150  cos
+C3     C6     C1     80.16 150  cos
+C3     C6     C2     80.16 150  cos
+C3     C6     C3     80.16 150  cos
+C3     C6     C4     80.16 150  cos
+C3     C6     C5     80.16 150  cos
+C3     C6     C6     80.16 150  cos
+C4     C1     C1     80.16 150  cos
+C4     C1     C2     80.16 150  cos
+C4     C1     C3     80.16 150  cos
+C4     C1     C4     80.16 150  cos
+C4     C1     C5     80.16 150  cos
+C4     C1     C6     80.16 150  cos
+C4     C2     C1     80.16 150  cos
+C4     C2     C2     80.16 150  cos
+C4     C2     C3     80.16 150  cos
+C4     C2     C4     80.16 150  cos
+C4     C2     C5     80.16 150  cos
+C4     C2     C6     80.16 150  cos
+C4     C3     C1     80.16 150  cos
+C4     C3     C2     80.16 150  cos
+C4     C3     C3     80.16 150  cos
+C4     C3     C4     80.16 150  cos
+C4     C3     C5     80.16 150  cos
+C4     C3     C6     80.16 150  cos
+C4     C4     C1     80.16 150  cos
+C4     C4     C2     80.16 150  cos
+C4     C4     C3     80.16 150  cos
+C4     C4     C4     80.16 150  cos
+C4     C4     C5     80.16 150  cos
+C4     C4     C6     80.16 150  cos
+C4     C5     C1     80.16 150  cos
+C4     C5     C2     80.16 150  cos
+C4     C5     C3     80.16 150  cos
+C4     C5     C4     80.16 150  cos
+C4     C5     C5     80.16 150  cos
+C4     C5     C6     80.16 150  cos
+C4     C6     C1     80.16 150  cos
+C4     C6     C2     80.16 150  cos
+C4     C6     C3     80.16 150  cos
+C4     C6     C4     80.16 150  cos
+C4     C6     C5     80.16 150  cos
+C4     C6     C6     80.16 150  cos
+C5     C1     C1     80.16 150  cos
+C5     C1     C2     80.16 150  cos
+C5     C1     C3     80.16 150  cos
+C5     C1     C4     80.16 150  cos
+C5     C1     C5     80.16 150  cos
+C5     C1     C6     80.16 150  cos
+C5     C2     C1     80.16 150  cos
+C5     C2     C2     80.16 150  cos
+C5     C2     C3     80.16 150  cos
+C5     C2     C4     80.16 150  cos
+C5     C2     C5     80.16 150  cos
+C5     C2     C6     80.16 150  cos
+C5     C3     C1     80.16 150  cos
+C5     C3     C2     80.16 150  cos
+C5     C3     C3     80.16 150  cos
+C5     C3     C4     80.16 150  cos
+C5     C3     C5     80.16 150  cos
+C5     C3     C6     80.16 150  cos
+C5     C4     C1     80.16 150  cos
+C5     C4     C2     80.16 150  cos
+C5     C4     C3     80.16 150  cos
+C5     C4     C4     80.16 150  cos
+C5     C4     C5     80.16 150  cos
+C5     C4     C6     80.16 150  cos
+C5     C5     C1     80.16 150  cos
+C5     C5     C2     80.16 150  cos
+C5     C5     C3     80.16 150  cos
+C5     C5     C4     80.16 150  cos
+C5     C5     C5     80.16 150  cos
+C5     C5     C6     80.16 150  cos
+C5     C6     C1     80.16 150  cos
+C5     C6     C2     80.16 150  cos
+C5     C6     C3     80.16 150  cos
+C5     C6     C4     80.16 150  cos
+C5     C6     C5     80.16 150  cos
+C5     C6     C6     80.16 150  cos
+C6     C1     C1     80.16 150  cos
+C6     C1     C2     80.16 150  cos
+C6     C1     C3     80.16 150  cos
+C6     C1     C4     80.16 150  cos
+C6     C1     C5     80.16 150  cos
+C6     C1     C6     80.16 150  cos
+C6     C2     C1     80.16 150  cos
+C6     C2     C2     80.16 150  cos
+C6     C2     C3     80.16 150  cos
+C6     C2     C4     80.16 150  cos
+C6     C2     C5     80.16 150  cos
+C6     C2     C6     80.16 150  cos
+C6     C3     C1     80.16 150  cos
+C6     C3     C2     80.16 150  cos
+C6     C3     C3     80.16 150  cos
+C6     C3     C4     80.16 150  cos
+C6     C3     C5     80.16 150  cos
+C6     C3     C6     80.16 150  cos
+C6     C4     C1     80.16 150  cos
+C6     C4     C2     80.16 150  cos
+C6     C4     C3     80.16 150  cos
+C6     C4     C4     80.16 150  cos
+C6     C4     C5     80.16 150  cos
+C6     C4     C6     80.16 150  cos
+C6     C5     C1     80.16 150  cos
+C6     C5     C2     80.16 150  cos
+C6     C5     C3     80.16 150  cos
+C6     C5     C4     80.16 150  cos
+C6     C5     C5     80.16 150  cos
+C6     C5     C6     80.16 150  cos
+C6     C6     C1     80.16 150  cos
+C6     C6     C2     80.16 150  cos
+C6     C6     C3     80.16 150  cos
+C6     C6     C4     80.16 150  cos
+C6     C6     C5     80.16 150  cos
+C6     C6     C6     80.16 150  cos
 
 DIHEDRALS
-
-! No dihedrals are defined for lipids in Martini.
 X X X X 0.0 1 0.0
-                   
