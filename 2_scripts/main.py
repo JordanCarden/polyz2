@@ -6,7 +6,7 @@ from typing import Dict, List, Tuple
 import MDAnalysis as mda, numpy as np, paramiko
 
 # -------- constants --------
-BASE = Path("/work/jcarde7/polz2")
+BASE = Path("/work/jcarde7/polyz2")
 POP = 12
 TARGET_RG = 36.0
 LOWER_RG, UPPER_RG = 35.0, 37.0
