@@ -1,0 +1,123 @@
+#############################################################
+## JOB DESCRIPTION                                         ##
+#############################################################
+
+# Minimization and Equilibration of 
+# Surfactant in a Water Box
+
+
+#############################################################
+## ADJUSTABLE PARAMETERS                                   ##
+#############################################################
+
+structure          /work/jcarde7/polyzwitterion/1_input/polymer_drug_solvate_ion.psf
+coordinates        /work/jcarde7/polyzwitterion/1_input/polymer_drug_solvate_ion.pdb
+
+set temperature    310
+cosAngles	   on
+set outputname     run_pr
+
+firsttimestep      0
+
+
+#############################################################
+## SIMULATION PARAMETERS                                   ##
+#############################################################
+
+# Input
+paraTypeCharmm	    on
+
+parameters  nbfix.par
+parameters  /work/jcarde7/polyzwitterion/0_parameters/bonded.par   
+#parameters  martini-NB
+
+temperature         $temperature  #comment when restarting a simulation
+
+# restart 
+#bincoordinates run_pr.restart.coor
+#binvelocities  run_pr.restart.vel
+#extendedSystem run_pr.restart.xsc
+
+
+# Force-Field Parameters
+exclude             1-2
+1-4scaling          1.0
+cutoff              14.0
+martiniSwitching    on	
+switching           on
+
+# PME (for full-system periodic electrostatics)
+PME                 no
+switchdist          9.0
+pairlistdist        16.0
+dielectric	    15.0
+
+# Integrator Parameters
+timestep            20  ;# 
+#rigidBonds          all  ;# needed for 2fs steps
+nonbondedFreq       1
+fullElectFrequency  2  
+stepspercycle       10
+
+# Constant Temperature Control
+langevin            on    ;# do langevin dynamics
+langevinDamping     1     ;# damping coefficient (gamma) of 1/ps
+langevinTemp        $temperature
+langevinHydrogen    off    ;# don't couple langevin bath to hydrogens
+
+
+#Periodic Boundary Conditions 
+cellBasisVector1    140.0     0.    0.0
+cellBasisVector2      0.0  140.0    0.0
+cellBasisVector3      0.0     0   140.0
+cellOrigin            0.      0.    0.
+
+wrapAll             on
+margin 10
+
+# PME (for full-system periodic electrostatics)
+#PME                 off
+#PMEGridSpacing      1.0
+
+#manual grid definition
+#PMEGridSizeX        256
+#PMEGridSizeY        256
+#PMEGridSizeZ        256
+
+
+# Constant Pressure Control (variable volume)
+useGroupPressure      yes ;# needed for rigidBonds
+#useFlexibleCell       on
+#useConstantArea       no
+#useConstantRatio      yes
+
+langevinPiston        on
+langevinPistonTarget  1.01325 ;#  in bar -> 1 atm
+langevinPistonPeriod  2000.0
+langevinPistonDecay   1000.0
+langevinPistonTemp    $temperature
+
+
+# Output
+outputName          $outputname
+
+restartfreq         5000     ;# 500steps = every 1ps
+dcdfreq             5000
+xstFreq             5000
+outputEnergies      5000
+outputPressure      5000
+
+
+#############################################################
+## EXTRA PARAMETERS                                        ##
+#############################################################
+
+
+#############################################################
+## EXECUTION SCRIPT                                        ##
+#############################################################
+
+# Minimization
+minimize            50000
+
+run	     1000000

@@ -1,0 +1,18 @@
+BONDS
+!B1  B2  k  r0 (charmm values, ie. k in kcal/mol/A^2, R0 in A)
+Q1	Q2	50.91	4.40
+Q2	N1	50.416	4.90
+N1	C1	50.416	5.05
+C1      C1      50.0    5.04
+
+ANGLES cos
+! B1  B2  B3  k  theta0
+Q1	Q2	N1	80.16	60   cos
+Q2	N1	C1	80.16	85   cos
+C1	C1	C1	80.16	150  cos
+
+DIHEDRALS
+
+! No dihedrals are defined for lipids in Martini.
+X X X X 0.0 1 0.0
+                   
