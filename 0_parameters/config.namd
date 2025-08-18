@@ -53,7 +53,7 @@ pairlistdist        16.0
 dielectric	    15.0
 
 # Integrator Parameters
-timestep            20  ;# 
+timestep            10  ;# 
 #rigidBonds          all  ;# needed for 2fs steps
 nonbondedFreq       1
 fullElectFrequency  2  
@@ -120,4 +120,4 @@ outputPressure      5000
 # Minimization
 minimize            50000
 
-run	     1000000
+run	     1500000
