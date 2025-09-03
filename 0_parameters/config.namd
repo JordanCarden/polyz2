@@ -67,9 +67,9 @@ langevinHydrogen    off    ;# don't couple langevin bath to hydrogens
 
 
 #Periodic Boundary Conditions 
-cellBasisVector1    110.0     0.    0.0
-cellBasisVector2      0.0  110.0    0.0
-cellBasisVector3      0.0     0   110.0
+cellBasisVector1    140.0     0.    0.0
+cellBasisVector2      0.0  140.0    0.0
+cellBasisVector3      0.0     0   140.0
 cellOrigin            0.      0.    0.
 
 wrapAll             on
